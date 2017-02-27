@@ -5,3 +5,7 @@ A collection of dotfiles.
 # Install
 
 Just a bunch of symlinks!
+
+zshrc -> ~/.zshrc
+zsh_bundles -> ~/.zsh_bundles
+vimrc -> ~/.config/nvim/init.vim
