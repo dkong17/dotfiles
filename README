@@ -4,6 +4,8 @@ A collection of dotfiles.
 
 # Install
 
+Install ag, antibody, nvim, vim-plug...
+
 Just a bunch of symlinks!
 
 zshrc -> ~/.zshrc
