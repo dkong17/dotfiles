@@ -8,6 +8,7 @@ SAVEHIST=1000
 bindkey -e
 
 zstyle :compinstall filename '/Users/patrickrogers/.zshrc'
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 MENU_COMPLETE=true
 
