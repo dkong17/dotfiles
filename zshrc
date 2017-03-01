@@ -22,3 +22,8 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 export EDITOR='nvim'
+
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/.go
+
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
