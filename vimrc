@@ -19,6 +19,7 @@ Plug 'bling/vim-airline'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'rust-lang/rust.vim'
 Plug 'mileszs/ack.vim'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
