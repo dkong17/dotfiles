@@ -16,7 +16,7 @@ autoload -Uz compinit
 compinit
 
 source <(antibody init)
-antibody bundle < .zsh_bundles
+antibody bundle < ~/.zsh_bundles
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down

@@ -108,7 +108,7 @@ let g:jsx_ext_required = 0
 
 " keyboard shortcuts
 
-let mapleader = "\<Space>"
+let mapleader = ","
 nnoremap <Leader>o :CtrlP<CR>
 
 cnoreabbrev Ack Ack!
@@ -119,3 +119,5 @@ nnoremap <Leader>w :w<CR>
 nnoremap <Leader>, :bp<CR>
 nnoremap <Leader>. :bn<CR>
 nnoremap <Leader>m :only<CR>
+
+tnoremap <Esc> <C-\><C-n>
