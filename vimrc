@@ -16,6 +16,7 @@ Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'bling/vim-airline'
+Plug 'jacoborus/tender.vim'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'rust-lang/rust.vim'
 Plug 'mileszs/ack.vim'
@@ -38,9 +39,11 @@ set autoread
 set autoindent
 set copyindent
 set backspace=indent,eol,start
-set ts=2
-set sw=2
-set et
+
+set expandtab
+set smarttab
+set shiftwidth=2
+set softtabstop=2
 
 set incsearch
 set hlsearch
