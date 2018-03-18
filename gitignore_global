@@ -101,4 +101,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+<<<<<<< HEAD
+*.pem
+.venv/
+=======
 .vscode/
+>>>>>>> 2e43eb999f877d4efa2673afa669c43f61f3ac27

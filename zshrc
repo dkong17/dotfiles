@@ -5,7 +5,7 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 
-bindkey -e
+bindkey -v
 
 zstyle :compinstall filename '/Users/patrickrogers/.zshrc'
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
