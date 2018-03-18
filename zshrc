@@ -23,7 +23,7 @@ bindkey '^[[B' history-substring-search-down
 
 export EDITOR='nvim'
 
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/.go
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+. ~/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
